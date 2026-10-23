@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Becca's Customs — Pet Portraits &amp; Architectural Art</title>
+  <meta name="description" content="Custom pet portraits and architectural illustrations by Becca. Commission a one-of-a-kind original piece.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#" class="nav-logo">Becca's Customs</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#commission">Commission</a></li>
+        <li>
+          <a href="https://instagram.com/beccas.customs" class="nav-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram (@beccas.customs)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+            <span class="nav-instagram-label">@beccas.customs</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Original hand-painted artwork</p>
+        <h1>Custom Art,<br><em>Made with Love</em></h1>
+        <p class="hero-sub">Pet portraits &amp; architectural illustrations painted just for you — each piece a permanent keepsake.</p>
+        <a href="#commission" class="btn">Commission a Piece</a>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="gallery-heading">Gallery</h2>
+          <p class="section-sub">A selection of recent commissions and personal work.</p>
+        </div>
+
+        <div class="gallery-filters" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="portrait">Pet Portraits</button>
+          <button class="filter-btn" data-filter="architecture">Architecture</button>
+          <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+
+          <article class="gallery-item" data-category="portrait" tabindex="0" role="button" aria-label="View: Watercolor portrait of a spaniel wearing a striped tie">
+            <div class="gallery-thumb">
+              <img src="images/portrait-spaniel.png" alt="Watercolor portrait of a black and white spaniel wearing a striped tie" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="architecture" tabindex="0" role="button" aria-label="View: Watercolor illustration of a Harley-Davidson dealership">
+            <div class="gallery-thumb">
+              <img src="images/arch-harley-davidson.png" alt="Watercolor illustration of a Harley-Davidson dealership exterior" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="architecture" tabindex="0" role="button" aria-label="View: Pen and ink illustration of the Oak Cliff Lodge">
+            <div class="gallery-thumb">
+              <img src="images/arch-oak-cliff-lodge.png" alt="Pen and ink illustration of the Oak Cliff Lodge building" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="portrait" tabindex="0" role="button" aria-label="View: Portrait of a dog with a Dos Equis bottle">
+            <div class="gallery-thumb">
+              <img src="images/portrait-dog-dos-equis.png" alt="Custom portrait of a black and tan dog posed with a Dos Equis bottle" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="other" tabindex="0" role="button" aria-label="View: Painting of coastal cliffs and ocean waves">
+            <div class="gallery-thumb">
+              <img src="images/landscape-coastal-cliffs.png" alt="Acrylic painting of dramatic coastal cliffs and crashing ocean waves" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="portrait" tabindex="0" role="button" aria-label="View: Watercolor portrait of a brown dog looking up">
+            <div class="gallery-thumb">
+              <img src="images/portrait-brown-dog.png" alt="Watercolor portrait of a brown dog looking up at the viewer" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="architecture" tabindex="0" role="button" aria-label="View: Watercolor illustration of The Bees Knees storefront">
+            <div class="gallery-thumb">
+              <img src="images/arch-bees-knees.png" alt="Watercolor illustration of The Bees Knees storefront with striped awning and flower boxes" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="architecture" tabindex="0" role="button" aria-label="View: Watercolor painting of a Harley-Davidson dealership">
+            <div class="gallery-thumb">
+              <img src="images/arch-harley-davidson-2.png" alt="Watercolor painting of a Harley-Davidson dealership under open skies" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-category="other" tabindex="0" role="button" aria-label="View: Watercolor of two figures wading in the ocean">
+            <div class="gallery-thumb">
+              <img src="images/figurative-beach-scene.png" alt="Framed watercolor painting of an adult and child wading together in the ocean surf" loading="lazy">
+              <div class="gallery-overlay" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/about-becca.jpg" alt="Becca at work in her studio" loading="lazy">
+        </div>
+        <div class="about-text">
+          <h2 class="section-title" id="about-heading">About Becca</h2>
+          <p class="about-lead">Hi, I'm Becca — an artist based in Dallas, TX with a love for capturing the details that make a place or a pet uniquely theirs.</p>
+          <p>I work primarily in watercolor and gouache, with each piece hand-painted to order. Whether it's the way your dog tilts their head or the worn brick of a building you love, I aim to translate those personal moments into something you'll treasure forever.</p>
+          <p>Every commission starts with a conversation. I take the time to understand what you want to capture before I put brush to paper.</p>
+          <a href="#commission" class="btn btn-outline">Start a Commission</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="commission" class="section commission-section" aria-labelledby="commission-heading">
+      <div class="container commission-inner">
+        <div class="section-header">
+          <h2 class="section-title" id="commission-heading">Commission a Piece</h2>
+          <p class="section-sub">Fill out the form below and I'll get back to you within 2–3 business days with details on availability and pricing.</p>
+        </div>
+        <form
+          class="commission-form"
+          action="https://formspree.io/f/xnppqyew"
+          method="POST"
+          novalidate
+          aria-label="Commission inquiry form"
+        >
+          <input type="hidden" name="_subject" value="New Commission Inquiry — Becca's Customs">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-row form-row-2">
+            <div class="form-group">
+              <label for="name">Your Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="jane@example.com">
+            </div>
+          </div>
+
+          <div class="form-row form-row-2">
+            <div class="form-group">
+              <label for="type">Type of Commission <span aria-hidden="true">*</span></label>
+              <div class="select-wrap">
+                <select id="type" name="commission_type" required>
+                  <option value="" disabled selected>Select a type…</option>
+                  <option value="pet-portrait">Pet Portrait</option>
+                  <option value="architecture">Architectural Illustration</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Pet's Name or Location</label>
+              <input type="text" id="subject" name="subject" placeholder="e.g. Mochi, or 42 Oak Street">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Me More <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" required rows="5" placeholder="Describe the piece you have in mind — size, style, any reference photos you'll share, occasion, timeline, etc."></textarea>
+          </div>
+
+          <div class="form-footer">
+            <p class="form-note">I'll reply within 2–3 business days. You can also reach me on Instagram <a href="https://instagram.com/beccas.customs" target="_blank" rel="noopener noreferrer">@beccas.customs</a>.</p>
+            <button type="submit" class="btn">Send Inquiry</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-logo">Becca's Customs</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#commission">Commission</a>
+        <a href="https://instagram.com/beccas.customs" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="mailto:hello@beccascustoms.com">Email</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> Becca's Customs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close image viewer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" src="" alt="">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
